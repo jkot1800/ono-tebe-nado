@@ -1,1 +1,62 @@
 /* место для вашего кода */
+.header {
+  width: 1052px;
+  height: 105px;
+  margin: 92px 24px 91px 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-size: 18px;
+}
+
+.header__menu {
+  grid-column: 1 / 6;
+  justify-self: end;
+  width: 388px;
+}
+
+.header__links-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__links-list {
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__links-list a:active {
+  text-decoration: none;
+}
+
+.header__logo {
+  grid-column: 6 / 8;
+  width: 148px;
+  height: 105px;
+  display: block;
+  justify-self: center;
+}
+
+.address {
+  grid-column: 8 / 13;
+  justify-self: end;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: normal;
+}
+
+.cover {
+  width: 1082px;
+  height: 744px;
+  margin-left: 9px;
+  margin-right: 9px;
+  background-image: url("/images/cover.jpg");
+  background-size: 1082px 744px;
+}
