@@ -63,3 +63,81 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
+
+.overlay {
+  grid-column: 1 / 13;
+  grid-row: 1 / 6;
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.cover__title {
+  grid-column: 1 / 13;
+  grid-row: 2 / 5;
+  margin-top: 11px;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  display: block;
+  text-align: left;
+  margin-left: 47px; 
+}
+
+.aligned-text_center {
+  display: block;
+  margin-left: 330px;
+  margin-top: 10px;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.letter-spacing-extended {
+  display: inline-block;
+  letter-spacing: 55px;
+}
+
+.cover__description {
+  grid-column: 1 / 13;
+  grid-row: 5;
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+
+.cover__description-text {
+  margin-left: 80px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: normal;
+  word-spacing: 17.5px;
+}
+
+.bet-button {
+  width: 252px;
+  height: 52px;
+  border: 1px solid white;
+  background-color: rgb(255 255 255 / 0);
+  color: white;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase; 
+}
+
+.lots {
+  width: 1034px;
+  height: 682px;
+  margin-top: 176px;
+  margin-left: 33px;
+  margin-right: 33px;
+  background-color: aqua;
+}
