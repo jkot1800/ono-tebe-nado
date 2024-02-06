@@ -101,19 +101,19 @@
 }
 
 .aligned-text {
-  height: 115px;
+  line-height: 115px;
   display: block;
   text-align: left;
 }
 
 .aligned-text_center {
-  height: 100px;
+  line-height: 100px;
   display: block;
   text-align: center;
 }
 
 .aligned-text_right {
-  height: 100px;
+  line-height: 100px;
   display: block;
   text-align: right;
 }
@@ -198,12 +198,12 @@
   position: relative; /* для .card-overlay */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-size: cover;
   background-position: center;
 }
 
-.card-film-gap-bg-image {
-  row-gap: 239px;
+.card-film-bg-image {
   background-image: url("../images/card-lot-01.jpg");
 }
 
@@ -225,8 +225,7 @@
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.card-picture-gap-bg-image {
-  row-gap: 90px;
+.card-picture-bg-image {
   background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -317,11 +316,11 @@
   font-size: 18px;
 }
 
-.footer__menu-link-none-underline {
+.footer__menu-link {
   text-decoration: none;
 }
 
-.footer__menu-link:active {
+.footer__menu-list-item a:active {
   text-decoration: none;
 }
 
