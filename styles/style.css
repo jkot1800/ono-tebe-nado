@@ -178,19 +178,10 @@
   list-style: none;
 }
 
-.lots__card-list-item-film {
+.lots__card-list-item {
   width: 334px;
   height: 100%;
-}
-
-.lots__card-list-item-book {
-  width: 334px;
-  height: 100%;
-}
-
-.lots__card-list-item-picture {
-  width: 334px;
-  height: 100%;
+  flex-grow: 1;
 }
 
 .card-link {
